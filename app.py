@@ -103,7 +103,8 @@ def show_map(coords, order=None):
         {polyline_js}
         </script>
         """
-        st.components.v1.html(map_html, height=400)
+        from streamlit.components.v1 import html
+        html(map_html, height=400)
     else:
         st.info("Map will be displayed here after you add addresses.")
 
