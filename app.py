@@ -156,7 +156,7 @@ def main():
     load_dotenv()
     GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 
-    st.title("Route Optimizer")
+    st.title("Smart Route for Walmart")
 
     st.header("Enter Addresses")
     address = st.text_input("Enter address")
