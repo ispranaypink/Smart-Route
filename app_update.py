@@ -4,7 +4,7 @@ import json
 from typing import List, Tuple, Optional
 
 # Configuration
-API_BASE_URL = "http://localhost:8000"  # Change this to your FastAPI server URL
+API_BASE_URL = "http://smartroute-pranay.ap-south-1.elasticbeanstalk.com/"  
 
 def call_api(endpoint: str, method: str = "GET", data: dict = None) -> dict:
     """Make API calls to the FastAPI backend"""
